@@ -52,11 +52,11 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Single Actuator Undulation Soft-bodied Robots Using A Precompressed Variable Thickness Flexible Beam</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://tungtd.com" target="_blank">Tung D. Ta</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
                   <span class="author-block">
@@ -65,15 +65,15 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">The University of Tokyo<br>IROS 2023</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2410.05813.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -83,7 +83,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,10 +91,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,11 +102,11 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2410.05813" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -129,11 +129,11 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/IROS24_3483_VI_i.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Video of our single actuator undulation soft-bodied robots using a precompressed variable thickness flexible beam. 
       </h2>
     </div>
   </div>
@@ -148,7 +148,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Soft robots - due to their intrinsic flexibility of the body - can adaptively navigate unstructured environments. One of the most popular locomotion gaits that has been implemented in soft robots is undulation. The undulation motion in soft robots resembles the locomotion gait of stringy creatures such as snakes, eels, and C. Elegans. Typically, the implementation of undulation locomotion on a soft robot requires many actuators to control each segment of the stringy body. The added weight of multiple actuators limits the navigating performance of soft- bodied robots. In this paper, we propose a simple tendon- driven flexible beam with only one actuator (a DC motor) that can generate a mechanical traveling wave along the beam to support the undulation locomotion of soft robots. The beam will be precompressed along its axis by shortening the length of the two tendons to form an S-shape, thus pretensioning the tendons. The motor will wind and unwind the tendons to deform the flexible beam and generate traveling waves along the body of the robot. We experiment with different pre-tension to characterize the relationship between tendon pre-tension forces and the DC-motor winding/unwinding. Our proposal enables a simple implementation of undulation motion to support the locomotion of soft-bodied robots.
           </p>
         </div>
       </div>
@@ -165,32 +165,74 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/Undulation_top_light.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Top: a 3D printed snake-like soft-bodied robot with a pre-compressed tendon-driven variable thickness flexible beam body. The robot uses only one actuator (a DC motor) to generate traveling mechanical waves along the body to support undulation locomotions. Bottom: snapshots of an undulation motion.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/Undulation_2d_beam.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Parametric design of the variable thickness flexible beam, (a) nonlinear variable thickness, (b) linear variable thickness.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/Undulation_design_top_down.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          Design of the variable thickness flexible beam. One end of the beam is tapered. The beam is initially pre-compressed by connecting two tendons to a motor at the thickest end. (a) Tapered flexible beam with tendons, (b) Pre-compressed flexible beam by shortening both tendons to induce initial buckling state.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/Undulation_3dprinted_light.JPG" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        3D-printed variable thickness flexible beam with different value of morphology parameters
       </h2>
     </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/Undulation_force_test_light.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        (a) We measure the tension force of the tendons using two hand-held force gauges. We simulate the winding/unwinding of the motor by moving the two hand-held force gauges in reversed order. We experiment one by one with three types of variable thickness flexible beam $S_{62}$, $S_{64}$, $S_{66}$. (b) Each test will start by precompressing the flexible beam.
+     </h2>
+   </div>
+   <div class="item">
+    <!-- Your image here -->
+    <img src="static/images/Undulation_force_result.png" alt="MY ALT TEXT"/>
+    <h2 class="subtitle has-text-centered">
+      The result of measuring tension on each tendon during actuation (the first 4 times in total of 10 times repetition).
+    </h2>
+  </div>
+  <div class="item">
+    <!-- Your image here -->
+    <img src="static/images/Undulation_force_test_mocap.png" alt="MY ALT TEXT"/>
+    <h2 class="subtitle has-text-centered">
+      Displacement of multiple points along the body of the flexible beam
+   </h2>
+ </div>
+ <div class="item">
+  <!-- Your image here -->
+  <img src="static/images/Undulation_motor_mocap.png" alt="MY ALT TEXT"/>
+  <h2 class="subtitle has-text-centered">
+    Motion capture of a precompressed variable thickness flexible beam actuated by a motor.
+  </h2>
+</div>
+<div class="item">
+  <!-- Your image here -->
+  <img src="static/images/Undulation_robot_run.png" alt="MY ALT TEXT"/>
+  <h2 class="subtitle has-text-centered">
+    A single actuator snake-like soft-bodied robot running by generating undulation motion.
+ </h2>
+</div>
+<div class="item">
+<!-- Your image here -->
+<img src="static/images/Undulation_robot_run_mocap.png" alt="MY ALT TEXT"/>
+<h2 class="subtitle has-text-centered">
+  Motion capture of a single actuator snake-like soft-bodied robot undulating on a flat surface.
+</h2>
+</div>
   </div>
 </div>
 </div>
@@ -222,28 +264,26 @@
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+            
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -251,7 +291,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -265,7 +305,7 @@
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/IROS2024_poster1.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -278,7 +318,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@INPROCEEDINGS{Ta_2024-ei,
+        title     = "Single Actuator Undulation Soft-bodied Robots Using A
+                     Precompressed Variable Thickness Flexible Beam",
+        author    = "Ta, Tung D",
+        booktitle = "2024 {IEEE} International Conference on Intelligent Robots and
+        Systems ({IEEE} {IROS'24})"
+      }
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
